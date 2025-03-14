@@ -6,7 +6,5 @@ import './assets/css/style.css'
 import './assets/css/fontawesome.all.min.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <App />
 )

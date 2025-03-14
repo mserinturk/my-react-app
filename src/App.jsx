@@ -1,13 +1,11 @@
 import { useState } from 'react'
+import MainLayout from './layout/main/MainLayout'
+
 
 function App() {
 
   return (
-    <>
-    <div class="border">test</div>
-      Merhaba Dünya
-      <i class="fa-light fa-user"></i>
-    </>
+    <MainLayout></MainLayout>
   )
 }
 
