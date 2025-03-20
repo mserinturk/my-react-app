@@ -1,11 +1,17 @@
 import { useState } from 'react'
-import MainLayout from './layout/main/MainLayout'
-
+import Header from './components/Header'
+import RouterConfig from './config/RouterConfig'
 
 function App() {
 
   return (
-    <MainLayout></MainLayout>
+    <div>
+      <Header></Header>
+      <RouterConfig>
+       
+      </RouterConfig>
+      
+    </div>
   )
 }
 
